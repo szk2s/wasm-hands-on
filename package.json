@@ -1,0 +1,11 @@
+{
+  "name": "wasm-hands-on",
+  "scripts": {
+	  "compile": "em++ hello.cpp -s WASM=1 -o hello.html"
+  }, 
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/szk2s/wasm-hands-on",
+  "author": "szk2s <suzukisjss@gmail.com>",
+  "license": "MIT"
+}
