@@ -1,7 +1,7 @@
 {
   "name": "wasm-hands-on",
   "scripts": {
-	  "compile": "em++ hello.cpp -s WASM=1 -o hello.html"
+	  "compile": "em++ hello.cpp -s WASM=1 -o hello.js"
   }, 
   "version": "1.0.0",
   "main": "index.js",
