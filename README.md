@@ -1,10 +1,13 @@
 # wasm-hands-on
 
-## Prerequisites
-Get the Emscripten SDK, using these instructions: https://kripken.github.io/emscripten-site/docs/getting_started/downloads.html
-
 ## Commands
 ```shell
+# Install
+yarn && yarn install:emsdk
+
+# Activate emscripten (needed before first compilation)
+source ./node_modules/emsdk/emsdk_env.sh
+
 yarn compile
 
 yarn serve
